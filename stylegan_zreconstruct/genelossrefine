@@ -1,0 +1,4 @@
+grep "p_loss=tensor(" $1 > ploss.refine
+grep "n_loss=tensor(" $1 > nloss.refine
+grep "mse_loss=tensor(" $1 > mseloss.refine
+grep "loss=tensor(" $1 > loss.refine
